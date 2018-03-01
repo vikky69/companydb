@@ -11,5 +11,11 @@
  5. daljwe sozdali pod java - SelectServlet
  6. daljwe v pom.xml dobavili JDBC driver
  **/
+
+/**
+ * chtobi zapustitj bazu, nado perejti v direktoriju, gde naxoditjsa baza i zapustitj C:\Progra~1\Java\jdk1.8.0_151\db\bin\startNetworkServer ot tuda
+ *
+ *
+ */
 public class comments {
 }

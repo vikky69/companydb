@@ -46,7 +46,7 @@
       <Position>2</Position>
       <DataType>BIGINT(19)|-5</DataType>
     </column>
-    <column id="22" parent="14" name="Full Name">
+    <column id="22" parent="14" name="FULL_NAME">
       <Position>3</Position>
       <DataType>VARCHAR(200)|12</DataType>
     </column>
@@ -58,22 +58,24 @@
       <Position>5</Position>
       <DataType>INTEGER(10)|4</DataType>
     </column>
-    <key id="25" parent="14" name="SQL180222192249190">
+    <index id="25" parent="14" name="IDX_PERSON_FULL_NAME">
+      <ColNames>FULL_NAME</ColNames>
+    </index>
+    <key id="26" parent="14" name="SQL180222192249190">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>ID</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="26" parent="15" name="ID">
+    <column id="27" parent="15" name="ID">
       <Position>1</Position>
       <DataType>BIGINT(19)|-5</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="27" parent="15" name="NAME">
+    <column id="28" parent="15" name="NAME">
       <Position>2</Position>
       <DataType>VARCHAR(100)|12</DataType>
-      <NotNull>1</NotNull>
     </column>
-    <key id="28" parent="15" name="SQL180222190743080">
+    <key id="29" parent="15" name="SQL180301185435150">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>ID</ColNames>
       <Primary>1</Primary>
